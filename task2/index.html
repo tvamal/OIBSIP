@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amal-portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="container">
+                <h1>Amal T V</h1>
+                <p class="tagline">Web Developer & Designer</p>
+                <div class="tech-logos">
+                    <i class="fab fa-html5" title="HTML5"></i>
+                    <i class="fab fa-css3-alt" title="CSS3"></i>
+                    <i class="fab fa-js" title="JavaScript"></i>
+                    <i class="fab fa-react" title="React"></i>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <img src="./img/my-image.jpg" alt="Amal T V" class="profile-image">
+                <p>I'm a passionate web developer specializing in creating responsive, user-friendly websites. With expertise in HTML, CSS, JavaScript, and modern frameworks like React and Next.js</p>
+            </div>
+            
+        </section>
+
+        <section id="projects">
+            <div class="container">
+                <h2 style="padding-bottom: 20px;">My Projects</h2>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <img src="./img/pro-1.png" alt="Project 1">
+                        <h3>Todo App</h3>
+                        <p>It's a simple Todo Web App using HTML, CSS, and JavaScript.</p>
+                        <a href="https://github.com/tvamal/Todo-App" style="text-decoration:none;" class="btn-p">View Project</a>
+                    </div>
+                    <div class="project-card">
+                        <img src="./img/pro-2.png" alt="Project 2">
+                        <h3>Currency Converter</h3>
+                        <p>A currency converter app built using modern JavaScript</p>
+                        <div style="margin-bottom: 20px;">
+
+                            <a href="https://github.com/tvamal/Corrency-converter" style="text-decoration:none;" class="btn-p">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Get In Touch</h2>
+                <p class="contact-intro">Feel free to reach out for collaborations or just a friendly chat!</p>
+                <form>
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="https://github.com/tvamal"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <p>&copy; 2024 Amal T V. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

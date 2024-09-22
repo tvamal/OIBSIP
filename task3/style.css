@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(240, 241, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 40vw;
+    height: 70vh;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 2vw;
+    border-radius: 20px;
+}
+
+.appName {
+    text-align: center;
+    font-size: 3vw;
+    font-weight: bold;
+    padding-top: 5vh;
+    color: #333;
+}
+
+.inputSection {
+    padding-top: 5vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputSection h3 {
+    font-size: 3vh;
+    color: #555;
+}
+
+.style {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 2.5vh;
+    padding: 0.5vh;
+    width: 100%;
+    text-align: center;
+}
+
+.style:focus {
+    outline: none;
+    border-color: #394136;
+    box-shadow: 0 0 5px rgba(48, 54, 61, 0.5);
+}
+
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.resultSection {
+    margin-top: 10vh;
+}
+
+.result {
+    margin-top: 2vh;
+    padding: 1vh 0;
+    font-size: 2.5vh;
+    border-bottom: 1.5px solid grey;
+    color: #333;
+    text-align: center;
+}
+
+.processingBtn {
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    padding: 1.5vh 6vw;
+    font-size: 3vh;
+    background-color: #6a604b;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0f1215;
+}
